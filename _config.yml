@@ -14,9 +14,9 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Klcium # the main title
+title: Klcium blog # the main title
 
-tagline: Pentester. Likes to reverse stuff and understand things. # it will display as the subtitle
+tagline: Pentest, reverse and pretty much anything I like. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Hi, I'm Klcium. I write infosec blogs regarding various topics: CTF writups, reverse engineering, pentesting and pretty much anything I find interesting.
@@ -29,7 +29,7 @@ github:
   username: klcium # change to your GitHub username
 
 twitter:
-  username:  # change to your Twitter username
+  username: klcium # change to your Twitter username
 
 social:
   # Change to your full name.
@@ -38,11 +38,9 @@ social:
   email: klcium@owo.io # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    #- https://twitter.com/ # change to your Twitter homepage
+    - https://twitter.com/klcium # change to your Twitter homepage
     - https://github.com/klcium # change to your GitHub homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://root-me.org/klcium
 
 # Site Verification Settings
 webmaster_verifications:
