@@ -14,9 +14,9 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Klcium blog # the main title
+title: Klcium # the main title
 
-tagline: Pentest, reverse and pretty much anything I like. # it will display as the subtitle
+tagline: My blog for pentest, reverse and pretty much anything I like. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Hi, I'm Klcium. I write infosec blogs regarding various topics: CTF writups, reverse engineering, pentesting and pretty much anything I find interesting.
