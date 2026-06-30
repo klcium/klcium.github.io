@@ -26,7 +26,7 @@ One of the first interesting behaviors implemented by the hidden script is the i
 - `do_dlopen()`
 - `call_constructor()` ([source](https://cs.android.com/android/platform/superproject/+/android-latest-release:bionic/linker/linker.cpp))
 
-If you are interested in Android's library loading process, I wrote [another article](2025-08-20-DT_NEEDED.md#android-library-loading-process) covering it in detail. Only the relevant parts are summarized here. `do_dlopen()` is the function ultimately responsible for loading native shared libraries requested through `System.loadLibrary()`.
+If you are interested in Android's library loading process, I wrote [another article](/posts/2025-08-20-DT_NEEDED.md#android-library-loading-process) covering it in detail. Only the relevant parts are summarized here. `do_dlopen()` is the function ultimately responsible for loading native shared libraries requested through `System.loadLibrary()`.
 
 Once the library has been mapped, relocated, and linked, `do_dlopen()` invokes `call_constructor()`. The latter executes the ELF initialization routines, namely the functions referenced by the `DT_INIT` and `DT_INIT_ARRAY` entries ([source](https://cs.android.com/android/platform/superproject/+/android-latest-release:bionic/linker/linker_soinfo.cpp;l=494)).
 
